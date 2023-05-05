@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Início</a></li>
+                <li><a href="detalhes.html">Detalhes</a></li>
+                <li><a href="autor.html">Sobre o autor</a></li>
+                <li><a href="administrador.html">Administrador</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <h1 style="background-color: #D3BDB5";> Padaria São José</h1>
+    <h2>Cadastrar Produtos</h2>
+    <!-- Formulário para cadastrar Pães -->
+    <form id="paes-form">
+        <label for="produto">Produto</label>
+        <input type="text"id="produto"name=produto">
+
+        <label for="preço">Preço</label>
+        <input type="text"id="preço"name=preço">
+                
+        <input type="submit"value="Cadastrar">
+
+        <a href="cadastrousuario.html">Cadastro Usuário</a>
+    </form>
+    <!--Tabela com a lista de pães cadastrados-->
+    <table>
+
+        <tr>
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Tamanho</th>
+            <th>Preço</th>
+            <th>Editar</th>
+            <th>Apagar</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Pão Carioca</td>
+            <td>P</td>
+            <td>R$ 0,25</td>
+            <td><button> class="<edit-btn>Editar</button></td>
+            <td><button> class="<delete-btn>Apagar</button></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Pão Carioca</td>
+            <td>G</td>
+            <td>R$ 0,50</td>
+            <td><button> class="<edit-btn>Editar</button></td>
+            <td><button> class="<delete-btn>Apagar</button></td> 
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Pão Salvado</td>
+            <td>P</td>
+            <td>R$ 0,30</td>
+            <td><button> class="<edit-btn>Editar</button></td>
+            <td><button> class="<delete-btn>Apagar</button></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Pão Salvado</td>
+            <td>G</td>
+            <td>R$ 1,50</td>
+            <td><button> class="<edit-btn>Editar</button></td>
+            <td><button> class="<delete-btn>Apagar</button></td>
+        </tr>
+    </table>
+    
+    <footer>
+        <p><b>Rua: A, nº.1, centro, Baturité, ce. / Contato: (85) 3347-0000 Email: padariasj@gmail.com </b></p>
+        <p>Ana Kelly Lemos</p>
+        <a href="#">Administrador</a>
+    </footer>
+
+</body>
+</html>
